@@ -1,0 +1,20 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allow vertical scrolling */
+    position: relative;
+    height: 100%; /* Ensure full height */
+    /* Enable vertical scrolling */
+    font-family: sans-serif Verdana, Geneva, Tahoma;
+    background-color: #ffffff; 
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}

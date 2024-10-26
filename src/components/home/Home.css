@@ -1,0 +1,63 @@
+.home {
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: #e0f7fa; /* Softer blue */
+  /*background-color: #80DEEA; Light teal background */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 2rem; /* Padding around content */
+  text-align: center; /* Center text alignment */
+  padding-top: 170px;
+  padding-bottom: 100px;
+
+}
+
+.home h2 {
+  font-size: 2.5rem; /* Title font size */
+  color: #00796B; /* Dark teal color */
+  margin-bottom: 1rem; /* Space below title */
+
+  
+}
+
+hr {
+  width: 80%; /* Width of the horizontal line */
+  border: none; /* Remove default border */
+  height: 2px; /* Height of the line */
+  background-color: #00796B; /* Color of the line */
+  margin: 1rem auto; /* Center line with margin */
+}
+
+h3 {
+  font-size: 1.8rem; /* Subtitle font size */
+  color: #333; /* Dark gray color */
+  margin-bottom: 1rem; /* Space below subtitle */
+}
+
+p {
+  font-size: 1.2rem; /* Paragraph font size */
+  color: #444; /* Slightly lighter gray for text */
+  margin: 0.5rem 0; /* Space above and below paragraphs */
+  max-width: 800px; /* Limit paragraph width for better readability */
+}
+
+/* Link Styling */
+.link {
+  display: inline-block; /* Makes it an inline block for padding */
+  font-size: 1.2rem; /* Font size for the link */
+  color: white; /* White text color for contrast */
+  text-decoration: none; /* Remove underline */
+  margin-top: 4rem; /* Space above the link */
+  padding: 10px 20px; /* Padding for a button-like feel */
+  border: none; /* Border to match the link color */
+  border-radius: 25px; /* Rounded corners for a button effect */
+  background-color: #0d7e7e; 
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.link:hover {
+  background-color: #004D40; /* Darker shade on hover */
+  color: white; /* Keep text color white on hover */
+  border: 2px solid #004D40; /* Match border color on hover */
+}

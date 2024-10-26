@@ -1,0 +1,129 @@
+
+
+.services {
+  background-color: #e0f7fa; /* Softer blue */
+  padding: 60px 20px;
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  color: #00796b;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #00796b;
+  margin: 10px auto;
+}
+
+/* List Styles */
+.service-list,
+.social-list {
+  list-style-type: none; /* Remove default bullets */
+  margin: 30px 0;
+  padding: 0;
+
+}
+
+.service-list li,
+.social-list li {
+  font-size: 1.5rem;
+  margin-bottom: 10px; /* Adjust spacing between items */
+  color: #004d4d;
+}
+
+.social-list li::before{
+  content: '';
+  position: block;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 10px;
+  background-color: black;
+
+}
+
+/* Add margin to the social list for separation */
+.social-list {
+  margin-top: 50px; /* Space between the two sections */
+}
+
+/* Content Styles */
+.service-content,
+.social-content {
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+
+/* CTA Button */
+.cta-button {
+  margin-top: 40px;
+}
+
+.cta-button button {
+  background-color: #0d7e7e; 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button button:hover {
+  background-color: #004d4d;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .service-list li,
+  .social-list li {
+    font-size: 1.2rem;
+  }
+
+  .cta-button button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .service-list li,
+  .social-list li {
+    font-size: 1rem;
+  }
+
+  .cta-button button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+  }
+}
